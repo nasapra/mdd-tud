@@ -19,14 +19,18 @@
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Tram" eSuperTypes="#//Vehicle"/>
   <eClassifiers xsi:type="ecore:EClass" name="Stop">
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="location" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="Stop location" eType="#//Location"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="StopLocation" eType="#//Location"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="EAttribute0"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="EAttribute1"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="TrainStation" eSuperTypes="#//Stop"/>
   <eClassifiers xsi:type="ecore:EClass" name="BusStop" eSuperTypes="#//Stop"/>
   <eClassifiers xsi:type="ecore:EClass" name="TramStop" eSuperTypes="#//Stop"/>
   <eClassifiers xsi:type="ecore:EClass" name="EClass0"/>
-  <eClassifiers xsi:type="ecore:EClass" name="User"/>
+  <eClassifiers xsi:type="ecore:EClass" name="User">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="username"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="password"/>
+  </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Traveler" eSuperTypes="#//User"/>
   <eClassifiers xsi:type="ecore:EClass" name="Admin" eSuperTypes="#//User"/>
   <eClassifiers xsi:type="ecore:EClass" name="EClass1"/>
@@ -54,5 +58,6 @@
     <eStructuralFeatures xsi:type="ecore:EReference" name="l" eType="#//Stop"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EDataType" name="EDataType0"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="Location" instanceTypeName="Location"/>
   <eSubpackages name="Trasportation"/>
 </ecore:EPackage>
