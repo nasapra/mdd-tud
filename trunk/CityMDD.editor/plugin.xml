@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated city -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="org.city.city.presentation.CityModelWizardID"
+            name="%_UI_CityModelWizard_label"
+            class="org.city.city.presentation.CityModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/CityModelFile.gif">
+         <description>%_UI_CityModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated city -->
+      <editor
+            id="org.city.city.presentation.CityEditorID"
+            name="%_UI_CityEditor_label"
+            icon="icons/full/obj16/CityModelFile.gif"
+            extensions="city"
+            class="org.city.city.presentation.CityEditor"
+            contributorClass="org.city.city.presentation.CityActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated city -->
+      <package
+            uri="http://city/1.0"
+            class="org.city.city.CityPackage"
+            genModel="model/city.genmodel"/>
+   </extension>
+
+</plugin>
