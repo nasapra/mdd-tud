@@ -4,8 +4,55 @@
   <eClassifiers xsi:type="ecore:EClass" name="Vehicle">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="driver" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="fuelType" eType="#//FuelType.1"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="seats" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="physicallyHandicappedSupport"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="cycles" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="Train" eSuperTypes="#//Vehicle"/>
-  <eClassifiers xsi:type="ecore:EClass" name="Bus" eSuperTypes="#//Vehicle"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Train" eSuperTypes="#//Vehicle">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="trainType" eType="#//TrainType"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="toilets" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Bus" eSuperTypes="#//Vehicle">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="busType" eType="#//BusType"/>
+  </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Tram" eSuperTypes="#//Vehicle"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Stop">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="location" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Stop location" eType="#//Location"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TrainStation" eSuperTypes="#//Stop"/>
+  <eClassifiers xsi:type="ecore:EClass" name="BusStop" eSuperTypes="#//Stop"/>
+  <eClassifiers xsi:type="ecore:EClass" name="TramStop" eSuperTypes="#//Stop"/>
+  <eClassifiers xsi:type="ecore:EClass" name="EClass0"/>
+  <eClassifiers xsi:type="ecore:EClass" name="User"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Traveler" eSuperTypes="#//User"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Admin" eSuperTypes="#//User"/>
+  <eClassifiers xsi:type="ecore:EClass" name="EClass1"/>
+  <eClassifiers xsi:type="ecore:EClass" name="EClass2"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="FuelType"/>
+  <eClassifiers xsi:type="ecore:EEnum" name="FuelType">
+    <eLiterals name="PETROL"/>
+    <eLiterals name="DIESEL" value="1"/>
+    <eLiterals name="ELECTRIC" value="2"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="TrainType">
+    <eLiterals name="RB" value="1"/>
+    <eLiterals name="UB" value="2"/>
+    <eLiterals name="SB"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="BusType">
+    <eLiterals name="SHORT"/>
+    <eLiterals name="LONG" value="1"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EDataType" name="StopName"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Location">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="latitude" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="longitude" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="l" eType="#//Stop"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EDataType" name="EDataType0"/>
+  <eSubpackages name="Trasportation"/>
 </ecore:EPackage>
