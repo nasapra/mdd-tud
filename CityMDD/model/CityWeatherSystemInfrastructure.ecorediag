@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_m8sK8AUEEeOOV9pGh-aOww" type="EcoreTools" name="CityWeatherSystemInfrastructure" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_oP3DAAUEEeOOV9pGh-aOww" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_oP4RIAUEEeOOV9pGh-aOww" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_oP4RIQUEEeOOV9pGh-aOww" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_oP4RIgUEEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_oP4RIwUEEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_oP4RJAUEEeOOV9pGh-aOww"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_oP44MAUEEeOOV9pGh-aOww" type="5002">
+      <children xmi:type="notation:Node" xmi:id="_2B2MMAUEEeOOV9pGh-aOww" type="2002">
+        <element xmi:type="ecore:EOperation" href="CityWeatherSystemInfrastructure.ecore#//Measurable/getUnit"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_2B2MMQUEEeOOV9pGh-aOww"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_zO0q8AUEEeOOV9pGh-aOww" type="2002">
+        <element xmi:type="ecore:EOperation" href="CityWeatherSystemInfrastructure.ecore#//Measurable/getValue"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_zO0q8QUEEeOOV9pGh-aOww"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_oP44MQUEEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_oP44MgUEEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_oP44MwUEEeOOV9pGh-aOww"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_oP3DAQUEEeOOV9pGh-aOww" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="CityWeatherSystemInfrastructure.ecore#//Measurable"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oP3DAgUEEeOOV9pGh-aOww" x="320" y="30"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_sWCOMAUEEeOOV9pGh-aOww" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_sWDcUAUEEeOOV9pGh-aOww" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_sWDcUQUEEeOOV9pGh-aOww" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_5Lrq8AUEEeOOV9pGh-aOww" type="2001">
+        <element xmi:type="ecore:EAttribute" href="CityWeatherSystemInfrastructure.ecore#//Temperature/value"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_5Lrq8QUEEeOOV9pGh-aOww"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_sWDcUgUEEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_sWDcUwUEEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_sWDcVAUEEeOOV9pGh-aOww"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_sWEDYAUEEeOOV9pGh-aOww" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_sWEDYQUEEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_sWEDYgUEEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_sWEDYwUEEeOOV9pGh-aOww"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_sWCOMQUEEeOOV9pGh-aOww" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="CityWeatherSystemInfrastructure.ecore#//Temperature"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sWCOMgUEEeOOV9pGh-aOww" x="30" y="160"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_tTEeMAUEEeOOV9pGh-aOww" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_tTFFQAUEEeOOV9pGh-aOww" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_tTFsUAUEEeOOV9pGh-aOww" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_7kIwEAUEEeOOV9pGh-aOww" type="2001">
+        <element xmi:type="ecore:EAttribute" href="CityWeatherSystemInfrastructure.ecore#//Humidity/value"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_7kIwEQUEEeOOV9pGh-aOww"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_tTFsUQUEEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_tTFsUgUEEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_tTFsUwUEEeOOV9pGh-aOww"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_tTGTYAUEEeOOV9pGh-aOww" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_tTGTYQUEEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_tTGTYgUEEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_tTGTYwUEEeOOV9pGh-aOww"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_tTEeMQUEEeOOV9pGh-aOww" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="CityWeatherSystemInfrastructure.ecore#//Humidity"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tTEeMgUEEeOOV9pGh-aOww" x="235" y="160"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_umzW8AUEEeOOV9pGh-aOww" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_um0lEAUEEeOOV9pGh-aOww" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_um1MIAUEEeOOV9pGh-aOww" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_8k8s0AUEEeOOV9pGh-aOww" type="2001">
+        <element xmi:type="ecore:EAttribute" href="CityWeatherSystemInfrastructure.ecore#//AtmosphericPressure/value"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_8k8s0QUEEeOOV9pGh-aOww"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_um1MIQUEEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_um1MIgUEEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_um1MIwUEEeOOV9pGh-aOww"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_um1MJAUEEeOOV9pGh-aOww" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_um1MJQUEEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_um1MJgUEEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_um1MJwUEEeOOV9pGh-aOww"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_umz-AAUEEeOOV9pGh-aOww" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="CityWeatherSystemInfrastructure.ecore#//AtmosphericPressure"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_umz-AQUEEeOOV9pGh-aOww" x="440" y="160"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_CM6a4AUFEeOOV9pGh-aOww" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_CM8QEAUFEeOOV9pGh-aOww" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_CM8QEQUFEeOOV9pGh-aOww" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_Tp0WoAUFEeOOV9pGh-aOww" type="2001">
+        <element xmi:type="ecore:EAttribute" href="CityWeatherSystemInfrastructure.ecore#//MeasurementDevice/name"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Tp0WoQUFEeOOV9pGh-aOww"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_UjjbAAUFEeOOV9pGh-aOww" type="2001">
+        <element xmi:type="ecore:EAttribute" href="CityWeatherSystemInfrastructure.ecore#//MeasurementDevice/location"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_UjjbAQUFEeOOV9pGh-aOww"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_CM8QEgUFEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_CM8QEwUFEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_CM8QFAUFEeOOV9pGh-aOww"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_CM83IAUFEeOOV9pGh-aOww" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_CM83IQUFEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_CM83IgUFEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_CM83IwUFEeOOV9pGh-aOww"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_CM6a4QUFEeOOV9pGh-aOww" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="CityWeatherSystemInfrastructure.ecore#//MeasurementDevice"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CM6a4gUFEeOOV9pGh-aOww" x="640" y="160"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_LnA90AUFEeOOV9pGh-aOww" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_LnCL8AUFEeOOV9pGh-aOww" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_LnCL8QUFEeOOV9pGh-aOww" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_LnCL8gUFEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_LnCL8wUFEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_LnCL9AUFEeOOV9pGh-aOww"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_LnCzAAUFEeOOV9pGh-aOww" type="5002">
+      <children xmi:type="notation:Node" xmi:id="_piqcwAUGEeOOV9pGh-aOww" type="2002">
+        <element xmi:type="ecore:EOperation" href="CityWeatherSystemInfrastructure.ecore#//Thermometer/getPresentTemperature"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_piqcwQUGEeOOV9pGh-aOww"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_LnCzAQUFEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_LnCzAgUFEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_LnCzAwUFEeOOV9pGh-aOww"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_LnA90QUFEeOOV9pGh-aOww" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="CityWeatherSystemInfrastructure.ecore#//Thermometer"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LnA90gUFEeOOV9pGh-aOww" x="145" y="285"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_On4GwAUFEeOOV9pGh-aOww" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_On4t0AUFEeOOV9pGh-aOww" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_On4t0QUFEeOOV9pGh-aOww" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_On4t0gUFEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_On4t0wUFEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_On4t1AUFEeOOV9pGh-aOww"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_On4t1QUFEeOOV9pGh-aOww" type="5002">
+      <children xmi:type="notation:Node" xmi:id="_tFGBsAUGEeOOV9pGh-aOww" type="2002">
+        <element xmi:type="ecore:EOperation" href="CityWeatherSystemInfrastructure.ecore#//Barometer/getPresentPressure"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_tFGBsQUGEeOOV9pGh-aOww"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_On4t1gUFEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_On4t1wUFEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_On4t2AUFEeOOV9pGh-aOww"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_On4GwQUFEeOOV9pGh-aOww" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="CityWeatherSystemInfrastructure.ecore#//Barometer"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_On4GwgUFEeOOV9pGh-aOww" x="460" y="285"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_RMQvEAUFEeOOV9pGh-aOww" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_RMRWIAUFEeOOV9pGh-aOww" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_RMR9MAUFEeOOV9pGh-aOww" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_RMR9MQUFEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_RMR9MgUFEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_RMR9MwUFEeOOV9pGh-aOww"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_RMR9NAUFEeOOV9pGh-aOww" type="5002">
+      <children xmi:type="notation:Node" xmi:id="_wN2iYAUGEeOOV9pGh-aOww" type="2002">
+        <element xmi:type="ecore:EOperation" href="CityWeatherSystemInfrastructure.ecore#//Hygrometer/getPresentHumidity"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_wN2iYQUGEeOOV9pGh-aOww"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_RMR9NQUFEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_RMR9NgUFEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_RMR9NwUFEeOOV9pGh-aOww"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_RMQvEQUFEeOOV9pGh-aOww" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="CityWeatherSystemInfrastructure.ecore#//Hygrometer"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RMQvEgUFEeOOV9pGh-aOww" x="750" y="285"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_gDm90AUFEeOOV9pGh-aOww" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_gDoL8AUFEeOOV9pGh-aOww" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_gDoL8QUFEeOOV9pGh-aOww" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_gDoL8gUFEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_gDoL8wUFEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_gDoL9AUFEeOOV9pGh-aOww"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_gDoL9QUFEeOOV9pGh-aOww" type="5002">
+      <children xmi:type="notation:Node" xmi:id="_qDxbMAUFEeOOV9pGh-aOww" type="2002">
+        <element xmi:type="ecore:EOperation" href="CityWeatherSystemInfrastructure.ecore#//AnalysisCenter/getAnalysis"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qDxbMQUFEeOOV9pGh-aOww"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_gDoL9gUFEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_gDoL9wUFEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_gDoL-AUFEeOOV9pGh-aOww"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_gDm90QUFEeOOV9pGh-aOww" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="CityWeatherSystemInfrastructure.ecore#//AnalysisCenter"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gDm90gUFEeOOV9pGh-aOww" x="1045" y="285"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_r-O8wAUFEeOOV9pGh-aOww" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_r-O8wwUFEeOOV9pGh-aOww" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_r-Pj0AUFEeOOV9pGh-aOww" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_yL5Y4AUFEeOOV9pGh-aOww" type="2001">
+        <element xmi:type="ecore:EAttribute" href="CityWeatherSystemInfrastructure.ecore#//Analysis/name"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_yL5Y4QUFEeOOV9pGh-aOww"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_r-Pj0QUFEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_r-Pj0gUFEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_r-Pj0wUFEeOOV9pGh-aOww"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_r-Pj1AUFEeOOV9pGh-aOww" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_r-Pj1QUFEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_r-Pj1gUFEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_r-Pj1wUFEeOOV9pGh-aOww"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_r-O8wQUFEeOOV9pGh-aOww" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="CityWeatherSystemInfrastructure.ecore#//Analysis"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_r-O8wgUFEeOOV9pGh-aOww" x="1000" y="30"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_tJOwQAUFEeOOV9pGh-aOww" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_tJPXUQUFEeOOV9pGh-aOww" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_tJP-YAUFEeOOV9pGh-aOww" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_tJP-YQUFEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_tJP-YgUFEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_tJP-YwUFEeOOV9pGh-aOww"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_tJP-ZAUFEeOOV9pGh-aOww" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_tJP-ZQUFEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_tJP-ZgUFEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_tJP-ZwUFEeOOV9pGh-aOww"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_tJOwQQUFEeOOV9pGh-aOww" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="CityWeatherSystemInfrastructure.ecore#//DailyAnalysis"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tJPXUAUFEeOOV9pGh-aOww" x="840" y="160"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_uabSYAUFEeOOV9pGh-aOww" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_uab5cAUFEeOOV9pGh-aOww" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_uacggAUFEeOOV9pGh-aOww" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_uacggQUFEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_uacgggUFEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_uacggwUFEeOOV9pGh-aOww"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_uacghAUFEeOOV9pGh-aOww" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_uacghQUFEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_uacghgUFEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_uacghwUFEeOOV9pGh-aOww"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_uabSYQUFEeOOV9pGh-aOww" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="CityWeatherSystemInfrastructure.ecore#//MonthlyAnalysis"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uabSYgUFEeOOV9pGh-aOww" x="1000" y="160" width="11" height="6"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_vuLZQAUFEeOOV9pGh-aOww" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_vuMnYAUFEeOOV9pGh-aOww" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_vuMnYQUFEeOOV9pGh-aOww" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_vuMnYgUFEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_vuMnYwUFEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_vuMnZAUFEeOOV9pGh-aOww"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_vuMnZQUFEeOOV9pGh-aOww" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_vuMnZgUFEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_vuMnZwUFEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_vuMnaAUFEeOOV9pGh-aOww"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_vuLZQQUFEeOOV9pGh-aOww" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="CityWeatherSystemInfrastructure.ecore#//YearlyAnalysis"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vuLZQgUFEeOOV9pGh-aOww" x="1160" y="160"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_m8sK8QUEEeOOV9pGh-aOww"/>
+  <element xmi:type="ecore:EPackage" href="CityWeatherSystemInfrastructure.ecore#/"/>
+  <edges xmi:type="notation:Edge" xmi:id="_9ySCoAUEEeOOV9pGh-aOww" type="3003" source="_sWCOMAUEEeOOV9pGh-aOww" target="_oP3DAAUEEeOOV9pGh-aOww">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_9ySCoQUEEeOOV9pGh-aOww" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_9ySCogUEEeOOV9pGh-aOww" fontName="Segoe UI"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_9ySCowUEEeOOV9pGh-aOww" points="[0, 0, -253, 60]$[0, -30, -253, 30]$[253, -30, 0, 30]$[253, -60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-x00EQUEEeOOV9pGh-aOww" id="(0.5,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-x1bIAUEEeOOV9pGh-aOww" id="(0.19653179190751446,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_-FaaAAUEEeOOV9pGh-aOww" type="3003" source="_tTEeMAUEEeOOV9pGh-aOww" target="_oP3DAAUEEeOOV9pGh-aOww">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_-FaaAQUEEeOOV9pGh-aOww" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_-FaaAgUEEeOOV9pGh-aOww" fontName="Segoe UI"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-FaaAwUEEeOOV9pGh-aOww" points="[0, 0, -84, 60]$[0, -30, -84, 30]$[84, -30, 0, 30]$[84, -60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-Fc2QAUEEeOOV9pGh-aOww" id="(0.5,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-FddUAUEEeOOV9pGh-aOww" id="(0.3988439306358382,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_-bySoAUEEeOOV9pGh-aOww" type="3003" source="_umzW8AUEEeOOV9pGh-aOww" target="_oP3DAAUEEeOOV9pGh-aOww">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_-bySoQUEEeOOV9pGh-aOww" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_-bySogUEEeOOV9pGh-aOww" fontName="Segoe UI"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-bySowUEEeOOV9pGh-aOww" points="[0, 0, 86, 60]$[0, -30, 86, 30]$[-86, -30, 0, 30]$[-86, -60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-x00EAUEEeOOV9pGh-aOww" id="(0.5,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-b0H0AUEEeOOV9pGh-aOww" id="(0.5953757225433526,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_HVgFUAUFEeOOV9pGh-aOww" type="3002" source="_CM6a4AUFEeOOV9pGh-aOww" target="_oP3DAAUEEeOOV9pGh-aOww">
+    <children xmi:type="notation:Node" xmi:id="_HVgFVAUFEeOOV9pGh-aOww" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_HVgFVQUFEeOOV9pGh-aOww" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_HVgFVgUFEeOOV9pGh-aOww" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_HVgFVwUFEeOOV9pGh-aOww" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_HVgFUQUFEeOOV9pGh-aOww" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_HVgFUgUFEeOOV9pGh-aOww" fontColor="4210752" fontName="Segoe UI" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="CityWeatherSystemInfrastructure.ecore#//MeasurementDevice/measurement"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_HVgFUwUFEeOOV9pGh-aOww" points="[0, 0, 251, 60]$[-251, -60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HVihkAUFEeOOV9pGh-aOww" id="(0.5,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HVihkQUFEeOOV9pGh-aOww" id="(0.7976878612716763,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_Z-4bQAUFEeOOV9pGh-aOww" type="3003" source="_On4GwAUFEeOOV9pGh-aOww" target="_CM6a4AUFEeOOV9pGh-aOww">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_Z-4bQQUFEeOOV9pGh-aOww" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Z-4bQgUFEeOOV9pGh-aOww" fontName="Segoe UI"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Z-4bQwUFEeOOV9pGh-aOww" points="[0, 0, -121, 60]$[0, -30, -121, 30]$[121, -30, 0, 30]$[121, -60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bTYJAAUFEeOOV9pGh-aOww" id="(0.49783549783549785,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bTYwEAUFEeOOV9pGh-aOww" id="(0.39705882352941174,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_aVY2wAUFEeOOV9pGh-aOww" type="3003" source="_LnA90AUFEeOOV9pGh-aOww" target="_CM6a4AUFEeOOV9pGh-aOww">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_aVY2wQUFEeOOV9pGh-aOww" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_aVY2wgUFEeOOV9pGh-aOww" fontName="Segoe UI"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_aVY2wwUFEeOOV9pGh-aOww" points="[0, 0, -397, 60]$[0, -30, -397, 30]$[397, -30, 0, 30]$[397, -60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bTXh8AUFEeOOV9pGh-aOww" id="(0.5,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bTXh8QUFEeOOV9pGh-aOww" id="(0.19852941176470587,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_asERYAUFEeOOV9pGh-aOww" type="3003" source="_RMQvEAUFEeOOV9pGh-aOww" target="_CM6a4AUFEeOOV9pGh-aOww">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_asERYQUFEeOOV9pGh-aOww" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_asERYgUFEeOOV9pGh-aOww" fontName="Segoe UI"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_asERYwUFEeOOV9pGh-aOww" points="[0, 0, 144, 60]$[0, -30, 144, 30]$[-144, -30, 0, 30]$[-144, -60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_asGGkAUFEeOOV9pGh-aOww" id="(0.5,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bTW64AUFEeOOV9pGh-aOww" id="(0.5955882352941176,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_h3A1IAUFEeOOV9pGh-aOww" type="3002" source="_gDm90AUFEeOOV9pGh-aOww" target="_CM6a4AUFEeOOV9pGh-aOww">
+    <children xmi:type="notation:Node" xmi:id="_h3BcMAUFEeOOV9pGh-aOww" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_h3BcMQUFEeOOV9pGh-aOww" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_h3BcMgUFEeOOV9pGh-aOww" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_h3BcMwUFEeOOV9pGh-aOww" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_h3A1IQUFEeOOV9pGh-aOww" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_h3A1IgUFEeOOV9pGh-aOww" fontColor="4210752" fontName="Segoe UI" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="CityWeatherSystemInfrastructure.ecore#//AnalysisCenter/AllDevices"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_h3A1IwUFEeOOV9pGh-aOww" points="[0, 0, 373, 60]$[-373, -60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2k5ZcAUFEeOOV9pGh-aOww" id="(0.4968944099378882,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2k5ZcQUFEeOOV9pGh-aOww" id="(0.7941176470588235,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_7NxCAAUFEeOOV9pGh-aOww" type="3003" source="_tJOwQAUFEeOOV9pGh-aOww" target="_r-O8wAUFEeOOV9pGh-aOww">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_7NxCAQUFEeOOV9pGh-aOww" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_7NxCAgUFEeOOV9pGh-aOww" fontName="Segoe UI"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7NxCAwUFEeOOV9pGh-aOww" points="[0, 0, -136, 77]$[0, -30, -136, 47]$[136, -30, 0, 47]$[136, -77, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7Ny3MAUFEeOOV9pGh-aOww" id="(0.5,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8Uk5EAUFEeOOV9pGh-aOww" id="(0.24509803921568626,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_7o2bgAUFEeOOV9pGh-aOww" type="3003" source="_uabSYAUFEeOOV9pGh-aOww" target="_r-O8wAUFEeOOV9pGh-aOww">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_7o2bgQUFEeOOV9pGh-aOww" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_7o2bggUFEeOOV9pGh-aOww" fontName="Segoe UI"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7o2bgwUFEeOOV9pGh-aOww" points="[0, 0, 0, 77]$[0, -77, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8Uic0AUFEeOOV9pGh-aOww" id="(0.5,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8Uic0QUFEeOOV9pGh-aOww" id="(0.5,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_8BT-0AUFEeOOV9pGh-aOww" type="3003" source="_vuLZQAUFEeOOV9pGh-aOww" target="_r-O8wAUFEeOOV9pGh-aOww">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_8BT-0QUFEeOOV9pGh-aOww" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_8BT-0gUFEeOOV9pGh-aOww" fontName="Segoe UI"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8BT-0wUFEeOOV9pGh-aOww" points="[0, 0, 137, 77]$[0, -30, 137, 47]$[-137, -30, 0, 47]$[-137, -77, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8UkSAAUFEeOOV9pGh-aOww" id="(0.5,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8UkSAQUFEeOOV9pGh-aOww" id="(0.7450980392156863,1.0)"/>
+  </edges>
+</notation:Diagram>
