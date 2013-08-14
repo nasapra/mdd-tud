@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/CityMDD/src" modelPluginID="CityMDD" modelName="CityTransportInventory"
+    rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container" importerID="org.eclipse.emf.importer.ecore"
+    complianceLevel="7.0" copyrightFields="false" operationReflection="true" importOrganizing="true">
+  <foreignModel>CityTransportInventory.ecore</foreignModel>
+  <genPackages prefix="Citytransportinventory" basePackage="org.tud.city.transport"
+      disposableProviderFactory="true" ecorePackage="CityTransportInventory.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="CityTransportInventory.ecore#//FuelType">
+      <genEnumLiterals ecoreEnumLiteral="CityTransportInventory.ecore#//FuelType/PETROL"/>
+      <genEnumLiterals ecoreEnumLiteral="CityTransportInventory.ecore#//FuelType/DIESEL"/>
+      <genEnumLiterals ecoreEnumLiteral="CityTransportInventory.ecore#//FuelType/ELECTRIC"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="CityTransportInventory.ecore#//TrainType">
+      <genEnumLiterals ecoreEnumLiteral="CityTransportInventory.ecore#//TrainType/RB"/>
+      <genEnumLiterals ecoreEnumLiteral="CityTransportInventory.ecore#//TrainType/SB"/>
+      <genEnumLiterals ecoreEnumLiteral="CityTransportInventory.ecore#//TrainType/UB"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="CityTransportInventory.ecore#//BusType">
+      <genEnumLiterals ecoreEnumLiteral="CityTransportInventory.ecore#//BusType/LONG"/>
+      <genEnumLiterals ecoreEnumLiteral="CityTransportInventory.ecore#//BusType/SHORT"/>
+    </genEnums>
+    <genClasses image="false" ecoreClass="CityTransportInventory.ecore#//Vehicle">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CityTransportInventory.ecore#//Vehicle/fuelStats"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CityTransportInventory.ecore#//Vehicle/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CityTransportInventory.ecore#//Vehicle/registration"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CityTransportInventory.ecore#//Vehicle/seatingCapacity"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CityTransportInventory.ecore#//Vehicle/cycleCapacity"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CityTransportInventory.ecore#//Vehicle/physicallyHandicappedSupport"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CityTransportInventory.ecore#//Vehicle/lastMaintanance"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CityTransportInventory.ecore#//Vehicle/nextMaintanence"/>
+    </genClasses>
+    <genClasses ecoreClass="CityTransportInventory.ecore#//Bus">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CityTransportInventory.ecore#//Bus/busType"/>
+    </genClasses>
+    <genClasses ecoreClass="CityTransportInventory.ecore#//Train">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CityTransportInventory.ecore#//Train/trainType"/>
+    </genClasses>
+    <genClasses ecoreClass="CityTransportInventory.ecore#//Tram"/>
+    <genClasses image="false" ecoreClass="CityTransportInventory.ecore#//Station">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CityTransportInventory.ecore#//Station/location"/>
+      <genOperations ecoreOperation="CityTransportInventory.ecore#//Station/getStationLocation"/>
+      <genOperations ecoreOperation="CityTransportInventory.ecore#//Station/getAllConnections"/>
+    </genClasses>
+    <genClasses ecoreClass="CityTransportInventory.ecore#//BusStation"/>
+    <genClasses ecoreClass="CityTransportInventory.ecore#//TrainStation"/>
+    <genClasses ecoreClass="CityTransportInventory.ecore#//TramStation"/>
+    <genClasses image="false" ecoreClass="CityTransportInventory.ecore#//Route">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CityTransportInventory.ecore#//Route/EReference0"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CityTransportInventory.ecore#//Route/startTime"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CityTransportInventory.ecore#//Route/endTime"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CityTransportInventory.ecore#//Route/Name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CityTransportInventory.ecore#//Route/assignedVehicles"/>
+      <genOperations ecoreOperation="CityTransportInventory.ecore#//Route/getAllStationsAfterStation"/>
+      <genOperations ecoreOperation="CityTransportInventory.ecore#//Route/getEndStation"/>
+      <genOperations ecoreOperation="CityTransportInventory.ecore#//Route/getStartStation"/>
+    </genClasses>
+    <genClasses ecoreClass="CityTransportInventory.ecore#//BusRoute"/>
+    <genClasses ecoreClass="CityTransportInventory.ecore#//TrainRoute"/>
+    <genClasses ecoreClass="CityTransportInventory.ecore#//TramRoute"/>
+    <genClasses ecoreClass="CityTransportInventory.ecore#//Location">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CityTransportInventory.ecore#//Location/latitude"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CityTransportInventory.ecore#//Location/longitude"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CityTransportInventory.ecore#//Location/name"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="CityTransportInventory.ecore#//Ticket">
+      <genOperations ecoreOperation="CityTransportInventory.ecore#//Ticket/getvalidity"/>
+      <genOperations ecoreOperation="CityTransportInventory.ecore#//Ticket/getCost"/>
+    </genClasses>
+    <genClasses ecoreClass="CityTransportInventory.ecore#//BusTicket">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference CityTransportInventory.ecore#//BusTicket/route"/>
+    </genClasses>
+    <genClasses ecoreClass="CityTransportInventory.ecore#//TrainTicket">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference CityTransportInventory.ecore#//TrainTicket/route"/>
+    </genClasses>
+    <genClasses ecoreClass="CityTransportInventory.ecore#//TramTicket">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference CityTransportInventory.ecore#//TramTicket/route"/>
+    </genClasses>
+    <genClasses ecoreClass="CityTransportInventory.ecore#//Fuel">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CityTransportInventory.ecore#//Fuel/fuelType"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CityTransportInventory.ecore#//Fuel/capacity"/>
+    </genClasses>
+    <genClasses ecoreClass="CityTransportInventory.ecore#//Petrol"/>
+    <genClasses image="false" ecoreClass="CityTransportInventory.ecore#//ConnectionInfrastructure">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CityTransportInventory.ecore#//ConnectionInfrastructure/nextMaintanence"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CityTransportInventory.ecore#//ConnectionInfrastructure/lastMaintanence"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CityTransportInventory.ecore#//ConnectionInfrastructure/name"/>
+    </genClasses>
+    <genClasses ecoreClass="CityTransportInventory.ecore#//Road"/>
+    <genClasses ecoreClass="CityTransportInventory.ecore#//Rail"/>
+    <genClasses ecoreClass="CityTransportInventory.ecore#//TramTracks"/>
+    <genClasses image="false" ecoreClass="CityTransportInventory.ecore#//Maintainable">
+      <genOperations ecoreOperation="CityTransportInventory.ecore#//Maintainable/getLastMaintenanceDate"/>
+      <genOperations ecoreOperation="CityTransportInventory.ecore#//Maintainable/getNextMaintenance"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>
