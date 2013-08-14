@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_sex9sAUIEeOOV9pGh-aOww" type="EcoreTools" name="CityManagement" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_zMKbsAUIEeOOV9pGh-aOww" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_zMLCwAUIEeOOV9pGh-aOww" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_zMLp0AUIEeOOV9pGh-aOww" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_zMLp0QUIEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_zMLp0gUIEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_zMLp0wUIEeOOV9pGh-aOww"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_zMLp1AUIEeOOV9pGh-aOww" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_zMLp1QUIEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_zMLp1gUIEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_zMLp1wUIEeOOV9pGh-aOww"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_zMKbsQUIEeOOV9pGh-aOww" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="CityManagement.ecore#//PublicTransportationManagement"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zMKbsgUIEeOOV9pGh-aOww" x="30" y="30"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_2Q-QgAUIEeOOV9pGh-aOww" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_2Q-3kAUIEeOOV9pGh-aOww" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_2Q-3kQUIEeOOV9pGh-aOww" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_2Q-3kgUIEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_2Q-3kwUIEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_2Q-3lAUIEeOOV9pGh-aOww"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_2Q-3lQUIEeOOV9pGh-aOww" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_2Q-3lgUIEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_2Q-3lwUIEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_2Q-3mAUIEeOOV9pGh-aOww"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_2Q-QgQUIEeOOV9pGh-aOww" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="CityManagement.ecore#//CityTrafficManagement"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Q-QggUIEeOOV9pGh-aOww" x="310" y="30"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_3c9igAUIEeOOV9pGh-aOww" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_3c-woAUIEeOOV9pGh-aOww" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_3c-woQUIEeOOV9pGh-aOww" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_3c-wogUIEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_3c-wowUIEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_3c-wpAUIEeOOV9pGh-aOww"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_3c_XsAUIEeOOV9pGh-aOww" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_3c_XsQUIEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_3c_XsgUIEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_3c_XswUIEeOOV9pGh-aOww"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_3c9igQUIEeOOV9pGh-aOww" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="CityManagement.ecore#//CityWeatherInformationManagement"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3c9iggUIEeOOV9pGh-aOww" x="525" y="30"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_8LXyYAUIEeOOV9pGh-aOww" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_8LYZcAUIEeOOV9pGh-aOww" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_8LZAgAUIEeOOV9pGh-aOww" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_8LZAgQUIEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_8LZAggUIEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_8LZAgwUIEeOOV9pGh-aOww"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_8LZnkAUIEeOOV9pGh-aOww" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_8LZnkQUIEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_8LZnkgUIEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_8LZnkwUIEeOOV9pGh-aOww"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_8LXyYQUIEeOOV9pGh-aOww" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="CityManagement.ecore#//CityWasteDisposalManagement"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8LXyYgUIEeOOV9pGh-aOww" x="820" y="30"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_AuYDgAUJEeOOV9pGh-aOww" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_AuYqkAUJEeOOV9pGh-aOww" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_AuYqkQUJEeOOV9pGh-aOww" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_AuYqkgUJEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_AuYqkwUJEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_AuYqlAUJEeOOV9pGh-aOww"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_AuYqlQUJEeOOV9pGh-aOww" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_AuYqlgUJEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_AuYqlwUJEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_AuYqmAUJEeOOV9pGh-aOww"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_AuYDgQUJEeOOV9pGh-aOww" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="CityManagement.ecore#//CitizenManagement"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AuYDggUJEeOOV9pGh-aOww" x="1085" y="30"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_FZ3iQAUJEeOOV9pGh-aOww" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_FZ3iQwUJEeOOV9pGh-aOww" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_FZ4JUAUJEeOOV9pGh-aOww" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_FZ4JUQUJEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_FZ4JUgUJEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_FZ4JUwUJEeOOV9pGh-aOww"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_FZ4JVAUJEeOOV9pGh-aOww" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_FZ4JVQUJEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_FZ4JVgUJEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_FZ4JVwUJEeOOV9pGh-aOww"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_FZ3iQQUJEeOOV9pGh-aOww" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="CityManagement.ecore#//CityInfrastructureManagement"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FZ3iQgUJEeOOV9pGh-aOww" x="1285" y="30"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_TgTRcAUJEeOOV9pGh-aOww" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_TgUfkAUJEeOOV9pGh-aOww" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_TgUfkQUJEeOOV9pGh-aOww" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_TgUfkgUJEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_TgUfkwUJEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_TgUflAUJEeOOV9pGh-aOww"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_TgVGoAUJEeOOV9pGh-aOww" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_TgVGoQUJEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_TgVGogUJEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_TgVGowUJEeOOV9pGh-aOww"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_TgTRcQUJEeOOV9pGh-aOww" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="CityManagement.ecore#//CityEnergyManagement"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TgTRcgUJEeOOV9pGh-aOww" x="1540" y="30"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_sex9sQUIEeOOV9pGh-aOww"/>
+  <element xmi:type="ecore:EPackage" href="CityManagement.ecore#/"/>
+</notation:Diagram>
