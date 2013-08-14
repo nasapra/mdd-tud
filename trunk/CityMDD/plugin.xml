@@ -6,13 +6,6 @@
 
 <plugin>
 
-   <extension point="org.eclipse.emf.ecore.generated_package">
-      <!-- @generated city -->
-      <package
-            uri="http://city/1.0"
-            class="org.city.city.CityPackage"
-            genModel="model/city.genmodel"/>
-   </extension>
 
    <extension point="org.eclipse.emf.ecore.generated_package">
       <!-- @generated CityTransportInventory -->
