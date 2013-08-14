@@ -9,7 +9,10 @@ Bundle-Localization: plugin
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Export-Package: org.city.city,
  org.city.city.impl,
- org.city.city.util
+ org.city.city.util,
+ org.tud.city.transport.citytransportinventory,
+ org.tud.city.transport.citytransportinventory.impl,
+ org.tud.city.transport.citytransportinventory.util
 Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.emf.ecore
 Bundle-ActivationPolicy: lazy

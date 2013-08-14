@@ -460,6 +460,10 @@
         <element xmi:type="ecore:EAttribute" href="CityTransportInventory.ecore#//ConnectionInfrastructure/lastMaintanence"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_-Xz2wQTyEeOOV9pGh-aOww"/>
       </children>
+      <children xmi:type="notation:Node" xmi:id="_z-LekAT0EeOOV9pGh-aOww" type="2001">
+        <element xmi:type="ecore:EAttribute" href="CityTransportInventory.ecore#//ConnectionInfrastructure/name"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_z-LekQT0EeOOV9pGh-aOww"/>
+      </children>
       <styles xmi:type="notation:DrawerStyle" xmi:id="_pEIdwgTyEeOOV9pGh-aOww"/>
       <styles xmi:type="notation:SortingStyle" xmi:id="_pEIdwwTyEeOOV9pGh-aOww"/>
       <styles xmi:type="notation:FilteringStyle" xmi:id="_pEIdxATyEeOOV9pGh-aOww"/>

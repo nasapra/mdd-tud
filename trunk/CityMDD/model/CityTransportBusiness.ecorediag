@@ -48,22 +48,6 @@
     <element xmi:type="ecore:EClass" href="CityTransportBusiness.ecore#//Bus"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_e3sjIgTrEeOOV9pGh-aOww" x="75" y="245"/>
   </children>
-  <children xmi:type="notation:Node" xmi:id="_jHEGkATrEeOOV9pGh-aOww" type="1001">
-    <children xmi:type="notation:Node" xmi:id="_jHEtoATrEeOOV9pGh-aOww" type="4001"/>
-    <children xmi:type="notation:Node" xmi:id="_jHEtoQTrEeOOV9pGh-aOww" type="5001">
-      <styles xmi:type="notation:DrawerStyle" xmi:id="_jHEtogTrEeOOV9pGh-aOww"/>
-      <styles xmi:type="notation:SortingStyle" xmi:id="_jHEtowTrEeOOV9pGh-aOww"/>
-      <styles xmi:type="notation:FilteringStyle" xmi:id="_jHEtpATrEeOOV9pGh-aOww"/>
-    </children>
-    <children xmi:type="notation:Node" xmi:id="_jHEtpQTrEeOOV9pGh-aOww" type="5002">
-      <styles xmi:type="notation:DrawerStyle" xmi:id="_jHEtpgTrEeOOV9pGh-aOww"/>
-      <styles xmi:type="notation:SortingStyle" xmi:id="_jHEtpwTrEeOOV9pGh-aOww"/>
-      <styles xmi:type="notation:FilteringStyle" xmi:id="_jHEtqATrEeOOV9pGh-aOww"/>
-    </children>
-    <styles xmi:type="notation:ShapeStyle" xmi:id="_jHEGkQTrEeOOV9pGh-aOww" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
-    <element xmi:type="ecore:EClass" href="CityTransportBusiness.ecore#//Vehicle"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jHEGkgTrEeOOV9pGh-aOww" x="183" y="97"/>
-  </children>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_JRPYEQTrEeOOV9pGh-aOww"/>
   <element xmi:type="ecore:EPackage" href="CityTransportBusiness.ecore#/"/>
 </notation:Diagram>

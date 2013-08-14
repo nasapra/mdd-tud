@@ -86,11 +86,12 @@
       eSuperTypes="#//Maintainable">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="nextMaintanence" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="lastMaintanence" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Road" eSuperTypes="#//ConnectionInfrastructure"/>
   <eClassifiers xsi:type="ecore:EClass" name="Rail" eSuperTypes="#//ConnectionInfrastructure"/>
   <eClassifiers xsi:type="ecore:EClass" name="TramTracks" eSuperTypes="#//ConnectionInfrastructure"/>
-  <eClassifiers xsi:type="ecore:EClass" name="Maintainable" interface="true">
+  <eClassifiers xsi:type="ecore:EClass" name="Maintainable" abstract="true" interface="true">
     <eOperations name="getLastMaintenanceDate"/>
     <eOperations name="getNextMaintenance"/>
   </eClassifiers>
