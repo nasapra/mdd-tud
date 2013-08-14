@@ -1,4 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
-    name="citytrafficinfrastructure" nsURI="http://citytrafficinfrastructure/1.0"
-    nsPrefix="citytrafficinfrastructure"/>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="citytrafficinfrastructure" nsURI="http://citytrafficinfrastructure/1.0"
+    nsPrefix="citytrafficinfrastructure">
+  <eClassifiers xsi:type="ecore:EClass" name="Infrastructure" abstract="true" interface="true">
+    <eOperations name="isActive" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    <eOperations name="getInfrastructureLocation" eType="#//Location"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ParkingInfrastructure" abstract="true"
+      eSuperTypes="#//Infrastructure">
+    <eOperations name="getLocation" eType="#//Location"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="occupied"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TrafficInfrastructure" abstract="true"
+      eSuperTypes="#//Infrastructure"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ParkingLot" eSuperTypes="#//ParkingInfrastructure"/>
+  <eClassifiers xsi:type="ecore:EClass" name="PublicParking" eSuperTypes="#//ParkingInfrastructure"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="EDataType0"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Location">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="latitude"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="longitude"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="address"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Surveillance" eSuperTypes="#//TrafficInfrastructure"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Control" eSuperTypes="#//TrafficInfrastructure"/>
+  <eClassifiers xsi:type="ecore:EClass" name="EClass0"/>
+  <eClassifiers xsi:type="ecore:EClass" name="EClass1"/>
+  <eClassifiers xsi:type="ecore:EClass" name="EClass2"/>
+</ecore:EPackage>
