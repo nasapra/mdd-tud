@@ -206,7 +206,7 @@
     </children>
     <styles xmi:type="notation:ShapeStyle" xmi:id="_OANPgQUVEeOOV9pGh-aOww" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
     <element xmi:type="ecore:EClass" href="CityEnergyInfrastructure.ecore#//EnergyDistribution"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OANPggUVEeOOV9pGh-aOww" x="935" y="360"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OANPggUVEeOOV9pGh-aOww" x="940" y="360"/>
   </children>
   <children xmi:type="notation:Node" xmi:id="_dj0uYAUVEeOOV9pGh-aOww" type="1001">
     <children xmi:type="notation:Node" xmi:id="_dj18gAUVEeOOV9pGh-aOww" type="4001"/>
@@ -222,7 +222,7 @@
     </children>
     <styles xmi:type="notation:ShapeStyle" xmi:id="_dj0uYQUVEeOOV9pGh-aOww" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
     <element xmi:type="ecore:EClass" href="CityEnergyInfrastructure.ecore#//HydroElectricProduction"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dj0uYgUVEeOOV9pGh-aOww" x="1540" y="495"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dj0uYgUVEeOOV9pGh-aOww" x="1315" y="495"/>
   </children>
   <children xmi:type="notation:Node" xmi:id="_h50eQAUVEeOOV9pGh-aOww" type="1001">
     <children xmi:type="notation:Node" xmi:id="_h51FUAUVEeOOV9pGh-aOww" type="4001"/>
@@ -254,7 +254,7 @@
     </children>
     <styles xmi:type="notation:ShapeStyle" xmi:id="_mS27EQUVEeOOV9pGh-aOww" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
     <element xmi:type="ecore:EClass" href="CityEnergyInfrastructure.ecore#//WindElectricProduction"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mS27EgUVEeOOV9pGh-aOww" x="1765" y="495"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mS27EgUVEeOOV9pGh-aOww" x="1770" y="495"/>
   </children>
   <children xmi:type="notation:Node" xmi:id="_dM8_IAUYEeOOV9pGh-aOww" type="1001">
     <children xmi:type="notation:Node" xmi:id="_dM-NQAUYEeOOV9pGh-aOww" type="4001"/>
@@ -294,7 +294,7 @@
     </children>
     <styles xmi:type="notation:ShapeStyle" xmi:id="_iVRj0QUYEeOOV9pGh-aOww" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
     <element xmi:type="ecore:EClass" href="CityEnergyInfrastructure.ecore#//ThermalElectricProduction"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iVRj0gUYEeOOV9pGh-aOww" x="1310" y="495"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iVRj0gUYEeOOV9pGh-aOww" x="1535" y="495"/>
   </children>
   <children xmi:type="notation:Node" xmi:id="_jyGHIAUYEeOOV9pGh-aOww" type="1001">
     <children xmi:type="notation:Node" xmi:id="_jyGuMAUYEeOOV9pGh-aOww" type="4001"/>
@@ -310,7 +310,7 @@
     </children>
     <styles xmi:type="notation:ShapeStyle" xmi:id="_jyGHIQUYEeOOV9pGh-aOww" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
     <element xmi:type="ecore:EClass" href="CityEnergyInfrastructure.ecore#//NuclearElectricProduction"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jyGHIgUYEeOOV9pGh-aOww" x="1980" y="495"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jyGHIgUYEeOOV9pGh-aOww" x="1985" y="495"/>
   </children>
   <children xmi:type="notation:Node" xmi:id="_QEtjQAUoEeOOV9pGh-aOww" type="1001">
     <children xmi:type="notation:Node" xmi:id="_QEuKUAUoEeOOV9pGh-aOww" type="4001"/>
@@ -394,7 +394,7 @@
     </children>
     <styles xmi:type="notation:ShapeStyle" xmi:id="_esw8UQUpEeOOV9pGh-aOww" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
     <element xmi:type="ecore:EClass" href="CityEnergyInfrastructure.ecore#//UltraHighVoltageSubstationStatus"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_esw8UgUpEeOOV9pGh-aOww" x="655" y="495"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_esw8UgUpEeOOV9pGh-aOww" x="660" y="495"/>
   </children>
   <children xmi:type="notation:Node" xmi:id="_vmLwgAUpEeOOV9pGh-aOww" type="1001">
     <children xmi:type="notation:Node" xmi:id="_vmMXkAUpEeOOV9pGh-aOww" type="4001"/>
@@ -410,7 +410,7 @@
     </children>
     <styles xmi:type="notation:ShapeStyle" xmi:id="_vmLwgQUpEeOOV9pGh-aOww" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
     <element xmi:type="ecore:EClass" href="CityEnergyInfrastructure.ecore#//PrimarySubstation"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vmLwggUpEeOOV9pGh-aOww" x="930" y="495"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vmLwggUpEeOOV9pGh-aOww" x="935" y="495"/>
   </children>
   <children xmi:type="notation:Node" xmi:id="_0VweAAUpEeOOV9pGh-aOww" type="1001">
     <children xmi:type="notation:Node" xmi:id="_0VxFEAUpEeOOV9pGh-aOww" type="4001"/>
@@ -426,7 +426,7 @@
     </children>
     <styles xmi:type="notation:ShapeStyle" xmi:id="_0VweAQUpEeOOV9pGh-aOww" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
     <element xmi:type="ecore:EClass" href="CityEnergyInfrastructure.ecore#//DistributionSystem"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0VweAgUpEeOOV9pGh-aOww" x="1120" y="495"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0VweAgUpEeOOV9pGh-aOww" x="1125" y="495"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_Cs3GcAUqEeOOV9pGh-aOww" type="Note" fontName="Segoe UI" description="Used to represent the status of all the components in the infrastructure." fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
     <children xmi:type="notation:BasicDecorationNode" xmi:id="_Cs3tgAUqEeOOV9pGh-aOww" type="DiagramName">
@@ -592,7 +592,7 @@
     <styles xmi:type="notation:ConnectorStyle" xmi:id="_Q03vgQUVEeOOV9pGh-aOww" routing="Rectilinear" lineColor="4210752"/>
     <styles xmi:type="notation:FontStyle" xmi:id="_Q03vggUVEeOOV9pGh-aOww" fontName="Segoe UI"/>
     <element xsi:nil="true"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Q03vgwUVEeOOV9pGh-aOww" points="[0, 0, -126, 119]$[0, -30, -126, 89]$[126, -30, 0, 89]$[126, -119, 0, 0]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Q03vgwUVEeOOV9pGh-aOww" points="[0, 0, -122, 119]$[0, -30, -122, 89]$[122, -30, 0, 89]$[122, -119, 0, 0]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ReX_gAUVEeOOV9pGh-aOww" id="(0.49732620320855614,0.0)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ReX_gQUVEeOOV9pGh-aOww" id="(0.33088235294117646,1.0)"/>
   </edges>
@@ -600,31 +600,31 @@
     <styles xmi:type="notation:ConnectorStyle" xmi:id="_pQTjoQUVEeOOV9pGh-aOww" routing="Rectilinear" lineColor="4210752"/>
     <styles xmi:type="notation:FontStyle" xmi:id="_pQTjogUVEeOOV9pGh-aOww" fontName="Segoe UI"/>
     <element xsi:nil="true"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_pQTjowUVEeOOV9pGh-aOww" points="[0, 0, 142, 77]$[0, -30, 142, 47]$[-142, -30, 0, 47]$[-142, -77, 0, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pQVY0AUVEeOOV9pGh-aOww" id="(0.24691358024691357,0.0)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pQVY0QUVEeOOV9pGh-aOww" id="(0.4225941422594142,1.0)"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_pQTjowUVEeOOV9pGh-aOww" points="[0, 0, 0, 77]$[0, -77, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pQVY0AUVEeOOV9pGh-aOww" id="(0.5,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pQVY0QUVEeOOV9pGh-aOww" id="(0.2384937238493724,1.0)"/>
   </edges>
   <edges xmi:type="notation:Edge" xmi:id="_po_JYAUVEeOOV9pGh-aOww" type="3003" source="_mS27EAUVEeOOV9pGh-aOww" target="_L_Az0AUVEeOOV9pGh-aOww">
     <styles xmi:type="notation:ConnectorStyle" xmi:id="_po_JYQUVEeOOV9pGh-aOww" routing="Rectilinear" lineColor="4210752"/>
     <styles xmi:type="notation:FontStyle" xmi:id="_po_JYgUVEeOOV9pGh-aOww" fontName="Segoe UI"/>
     <element xsi:nil="true"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_po_JYwUVEeOOV9pGh-aOww" points="[0, 0, 317, 77]$[0, -30, 317, 47]$[-317, -30, 0, 47]$[-317, -77, 0, 0]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_po_JYwUVEeOOV9pGh-aOww" points="[0, 0, 322, 77]$[0, -30, 322, 47]$[-322, -30, 0, 47]$[-322, -77, 0, 0]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qIyDwAUVEeOOV9pGh-aOww" id="(0.25,0.0)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qIyDwQUVEeOOV9pGh-aOww" id="(0.6150627615062761,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qIyDwQUVEeOOV9pGh-aOww" id="(0.6192468619246861,1.0)"/>
   </edges>
   <edges xmi:type="notation:Edge" xmi:id="_LRY-MAUoEeOOV9pGh-aOww" type="3003" source="_iVRj0AUYEeOOV9pGh-aOww" target="_L_Az0AUVEeOOV9pGh-aOww">
     <styles xmi:type="notation:ConnectorStyle" xmi:id="_LRY-MQUoEeOOV9pGh-aOww" routing="Rectilinear" lineColor="4210752"/>
     <styles xmi:type="notation:FontStyle" xmi:id="_LRY-MgUoEeOOV9pGh-aOww" fontName="Segoe UI"/>
     <element xsi:nil="true"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LRY-MwUoEeOOV9pGh-aOww" points="[0, 0, 0, 77]$[0, -77, 0, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LRazYAUoEeOOV9pGh-aOww" id="(0.49710982658959535,0.0)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ME0mQAUoEeOOV9pGh-aOww" id="(0.23430962343096234,1.0)"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LRY-MwUoEeOOV9pGh-aOww" points="[0, 0, 139, 77]$[0, -30, 139, 47]$[-139, -30, 0, 47]$[-139, -77, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LRazYAUoEeOOV9pGh-aOww" id="(0.24855491329479767,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ME0mQAUoEeOOV9pGh-aOww" id="(0.42677824267782427,1.0)"/>
   </edges>
   <edges xmi:type="notation:Edge" xmi:id="_LsRjYAUoEeOOV9pGh-aOww" type="3003" source="_jyGHIAUYEeOOV9pGh-aOww" target="_L_Az0AUVEeOOV9pGh-aOww">
     <styles xmi:type="notation:ConnectorStyle" xmi:id="_LsRjYQUoEeOOV9pGh-aOww" routing="Rectilinear" lineColor="4210752"/>
     <styles xmi:type="notation:FontStyle" xmi:id="_LsRjYgUoEeOOV9pGh-aOww" fontName="Segoe UI"/>
     <element xsi:nil="true"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LsRjYwUoEeOOV9pGh-aOww" points="[0, 0, 490, 77]$[0, -30, 490, 47]$[-490, -30, 0, 47]$[-490, -77, 0, 0]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LsRjYwUoEeOOV9pGh-aOww" points="[0, 0, 496, 77]$[0, -30, 496, 47]$[-496, -30, 0, 47]$[-496, -77, 0, 0]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LsSxgAUoEeOOV9pGh-aOww" id="(0.24561403508771928,0.0)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LsSxgQUoEeOOV9pGh-aOww" id="(0.8075313807531381,1.0)"/>
   </edges>
@@ -632,9 +632,9 @@
     <styles xmi:type="notation:ConnectorStyle" xmi:id="_U6oJUQUoEeOOV9pGh-aOww" routing="Rectilinear" lineColor="4210752"/>
     <styles xmi:type="notation:FontStyle" xmi:id="_U6oJUgUoEeOOV9pGh-aOww" fontName="Segoe UI"/>
     <element xsi:nil="true"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_U6oJUwUoEeOOV9pGh-aOww" points="[0, 0, 0, 414]$[0, -414, 0, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZrgeYAUoEeOOV9pGh-aOww" id="(0.5,0.0)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZrhFcAUoEeOOV9pGh-aOww" id="(0.8412698412698413,1.0)"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_U6oJUwUoEeOOV9pGh-aOww" points="[0, 0, -135, 414]$[0, -30, -135, 384]$[-62, -30, -197, 384]$[-62, -328, -197, 86]$[135, -328, 0, 86]$[135, -414, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZrgeYAUoEeOOV9pGh-aOww" id="(0.24691358024691357,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZrhFcAUoEeOOV9pGh-aOww" id="(0.41904761904761906,1.0)"/>
   </edges>
   <edges xmi:type="notation:Edge" xmi:id="_VbxukAUoEeOOV9pGh-aOww" type="3003" source="_h50eQAUVEeOOV9pGh-aOww" target="_QEtjQAUoEeOOV9pGh-aOww">
     <styles xmi:type="notation:ConnectorStyle" xmi:id="_VbxukQUoEeOOV9pGh-aOww" routing="Rectilinear" lineColor="4210752"/>
@@ -649,22 +649,22 @@
     <styles xmi:type="notation:FontStyle" xmi:id="_WHmSwgUoEeOOV9pGh-aOww" fontName="Segoe UI"/>
     <element xsi:nil="true"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_WHmSwwUoEeOOV9pGh-aOww" points="[0, 0, 247, 414]$[0, -328, 247, 86]$[-247, -328, 0, 86]$[-247, -414, 0, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Zrf3UAUoEeOOV9pGh-aOww" id="(0.8910256410256411,0.0)"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Zrf3UAUoEeOOV9pGh-aOww" id="(0.8525641025641025,0.0)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Zrf3UQUoEeOOV9pGh-aOww" id="(0.946031746031746,1.0)"/>
   </edges>
   <edges xmi:type="notation:Edge" xmi:id="_Xa8J8AUoEeOOV9pGh-aOww" type="3003" source="_iVRj0AUYEeOOV9pGh-aOww" target="_QEtjQAUoEeOOV9pGh-aOww">
     <styles xmi:type="notation:ConnectorStyle" xmi:id="_Xa8J8QUoEeOOV9pGh-aOww" routing="Rectilinear" lineColor="4210752"/>
     <styles xmi:type="notation:FontStyle" xmi:id="_Xa8J8gUoEeOOV9pGh-aOww" fontName="Segoe UI"/>
     <element xsi:nil="true"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Xa8J8wUoEeOOV9pGh-aOww" points="[0, 0, -138, 414]$[0, -30, -138, 384]$[-59, -30, -197, 384]$[-59, -328, -197, 86]$[138, -328, 0, 86]$[138, -414, 0, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Zrkv0AUoEeOOV9pGh-aOww" id="(0.24855491329479767,0.0)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Zrkv0QUoEeOOV9pGh-aOww" id="(0.41904761904761906,1.0)"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Xa8J8wUoEeOOV9pGh-aOww" points="[0, 0, 0, 414]$[0, -414, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Zrkv0AUoEeOOV9pGh-aOww" id="(0.49710982658959535,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Zrkv0QUoEeOOV9pGh-aOww" id="(0.8412698412698413,1.0)"/>
   </edges>
   <edges xmi:type="notation:Edge" xmi:id="_ZMni8AUoEeOOV9pGh-aOww" type="3003" source="_jyGHIAUYEeOOV9pGh-aOww" target="_R34KAAUoEeOOV9pGh-aOww">
     <styles xmi:type="notation:ConnectorStyle" xmi:id="_ZMni8QUoEeOOV9pGh-aOww" routing="Rectilinear" lineColor="4210752"/>
     <styles xmi:type="notation:FontStyle" xmi:id="_ZMni8gUoEeOOV9pGh-aOww" fontName="Segoe UI"/>
     <element xsi:nil="true"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ZMni8wUoEeOOV9pGh-aOww" points="[0, 0, -243, 414]$[0, -30, -243, 384]$[79, -30, -164, 384]$[79, -328, -164, 86]$[243, -328, 0, 86]$[243, -414, 0, 0]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ZMni8wUoEeOOV9pGh-aOww" points="[0, 0, -237, 414]$[0, -30, -237, 384]$[76, -30, -161, 384]$[76, -328, -161, 86]$[237, -328, 0, 86]$[237, -414, 0, 0]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Zri6oAUoEeOOV9pGh-aOww" id="(0.7485380116959064,0.0)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Zri6oQUoEeOOV9pGh-aOww" id="(0.6666666666666666,1.0)"/>
   </edges>
@@ -688,7 +688,7 @@
     <element xmi:type="ecore:EReference" href="CityEnergyInfrastructure.ecore#//WindElectricProduction/storage"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7g988wUoEeOOV9pGh-aOww" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_B4WVwAUpEeOOV9pGh-aOww" id="(0.5,0.0)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7hAZMAUoEeOOV9pGh-aOww" id="(0.9153439153439153,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7hAZMAUoEeOOV9pGh-aOww" id="(0.9470899470899471,1.0)"/>
   </edges>
   <edges xmi:type="notation:Edge" xmi:id="_9DVHkAUoEeOOV9pGh-aOww" type="3002" source="_iVRj0AUYEeOOV9pGh-aOww" target="_rdvw8AUoEeOOV9pGh-aOww">
     <children xmi:type="notation:Node" xmi:id="_9DVHlAUoEeOOV9pGh-aOww" type="4011">
@@ -700,9 +700,9 @@
     <styles xmi:type="notation:ConnectorStyle" xmi:id="_9DVHkQUoEeOOV9pGh-aOww" lineColor="4210752"/>
     <styles xmi:type="notation:FontStyle" xmi:id="_9DVHkgUoEeOOV9pGh-aOww" fontColor="4210752" fontName="Segoe UI" fontHeight="10"/>
     <element xmi:type="ecore:EReference" href="CityEnergyInfrastructure.ecore#//ThermalElectricProduction/storage"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_9DVHkwUoEeOOV9pGh-aOww" points="[0, 0, -288, 60]$[288, -60, 0, 0]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_9DVHkwUoEeOOV9pGh-aOww" points="[0, 0, -122, 60]$[122, -60, 0, 0]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_B4Xj4AUpEeOOV9pGh-aOww" id="(0.7456647398843931,0.0)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_B4Xj4QUpEeOOV9pGh-aOww" id="(0.30158730158730157,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_B4Xj4QUpEeOOV9pGh-aOww" id="(0.6296296296296297,1.0)"/>
   </edges>
   <edges xmi:type="notation:Edge" xmi:id="_-Cih0AUoEeOOV9pGh-aOww" type="3002" source="_dj0uYAUVEeOOV9pGh-aOww" target="_rdvw8AUoEeOOV9pGh-aOww">
     <children xmi:type="notation:Node" xmi:id="_-Cjv8AUoEeOOV9pGh-aOww" type="4011">
@@ -714,9 +714,9 @@
     <styles xmi:type="notation:ConnectorStyle" xmi:id="_-Cih0QUoEeOOV9pGh-aOww" lineColor="4210752"/>
     <styles xmi:type="notation:FontStyle" xmi:id="_-Cih0gUoEeOOV9pGh-aOww" fontColor="4210752" fontName="Segoe UI" fontHeight="10"/>
     <element xmi:type="ecore:EReference" href="CityEnergyInfrastructure.ecore#//HydroElectricProduction/storage"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-Cih0wUoEeOOV9pGh-aOww" points="[0, 0, -121, 60]$[121, -60, 0, 0]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-Cih0wUoEeOOV9pGh-aOww" points="[0, 0, -292, 60]$[292, -60, 0, 0]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_B4Q2MAUpEeOOV9pGh-aOww" id="(0.7469135802469136,0.0)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_B4Q2MQUpEeOOV9pGh-aOww" id="(0.6084656084656085,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_B4Q2MQUpEeOOV9pGh-aOww" id="(0.31216931216931215,1.0)"/>
   </edges>
   <edges xmi:type="notation:Edge" xmi:id="_DXbi4AUpEeOOV9pGh-aOww" type="3002" source="_rdvw8AUoEeOOV9pGh-aOww" target="_h50eQAUVEeOOV9pGh-aOww">
     <children xmi:type="notation:Node" xmi:id="_DXcJ8AUpEeOOV9pGh-aOww" type="4011">
@@ -736,17 +736,17 @@
     <styles xmi:type="notation:ConnectorStyle" xmi:id="_3EWyQAUpEeOOV9pGh-aOww" routing="Rectilinear" lineColor="4210752"/>
     <styles xmi:type="notation:FontStyle" xmi:id="_3EWyQQUpEeOOV9pGh-aOww" fontName="Segoe UI"/>
     <element xsi:nil="true"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3EWyQgUpEeOOV9pGh-aOww" points="[0, 0, -203, 68]$[0, -30, -203, 38]$[203, -30, 0, 38]$[203, -68, 0, 0]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3EWyQgUpEeOOV9pGh-aOww" points="[0, 0, -202, 68]$[0, -30, -202, 38]$[202, -30, 0, 38]$[202, -68, 0, 0]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3EZOgAUpEeOOV9pGh-aOww" id="(0.4976958525345622,0.0)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4qLgkAUpEeOOV9pGh-aOww" id="(0.1497326203208556,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4qLgkAUpEeOOV9pGh-aOww" id="(0.15508021390374332,1.0)"/>
   </edges>
   <edges xmi:type="notation:Edge" xmi:id="_3snFEAUpEeOOV9pGh-aOww" type="3003" source="_0VweAAUpEeOOV9pGh-aOww" target="_OANPgAUVEeOOV9pGh-aOww">
     <styles xmi:type="notation:ConnectorStyle" xmi:id="_3snFEQUpEeOOV9pGh-aOww" routing="Rectilinear" lineColor="4210752"/>
     <styles xmi:type="notation:FontStyle" xmi:id="_3snFEgUpEeOOV9pGh-aOww" fontName="Segoe UI"/>
     <element xsi:nil="true"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3snFEwUpEeOOV9pGh-aOww" points="[0, 0, 124, 68]$[0, -30, 124, 38]$[-124, -30, 0, 38]$[-124, -68, 0, 0]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3snFEwUpEeOOV9pGh-aOww" points="[0, 0, 125, 68]$[0, -30, 125, 38]$[-125, -30, 0, 38]$[-125, -68, 0, 0]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4qJrYAUpEeOOV9pGh-aOww" id="(0.5,0.0)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4qKScAUpEeOOV9pGh-aOww" id="(0.6524064171122995,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4qKScAUpEeOOV9pGh-aOww" id="(0.6577540106951871,1.0)"/>
   </edges>
   <edges xmi:type="notation:Edge" xmi:id="_4S0wgAUpEeOOV9pGh-aOww" type="3003" source="_vmLwgAUpEeOOV9pGh-aOww" target="_OANPgAUVEeOOV9pGh-aOww">
     <styles xmi:type="notation:ConnectorStyle" xmi:id="_4S0wgQUpEeOOV9pGh-aOww" routing="Rectilinear" lineColor="4210752"/>
@@ -754,7 +754,7 @@
     <element xsi:nil="true"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4S0wgwUpEeOOV9pGh-aOww" points="[0, 0, 0, 68]$[0, -68, 0, 0]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4qHPIAUpEeOOV9pGh-aOww" id="(0.49606299212598426,0.0)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4qH2MAUpEeOOV9pGh-aOww" id="(0.3048128342245989,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4qH2MAUpEeOOV9pGh-aOww" id="(0.3155080213903743,1.0)"/>
   </edges>
   <edges xmi:type="notation:Edge" xmi:id="_GhjfEAU1EeOOV9pGh-aOww" type="3002" source="_jyGHIAUYEeOOV9pGh-aOww" target="_rdvw8AUoEeOOV9pGh-aOww">
     <children xmi:type="notation:Node" xmi:id="_GhjfFAU1EeOOV9pGh-aOww" type="4011">
@@ -766,9 +766,9 @@
     <styles xmi:type="notation:ConnectorStyle" xmi:id="_GhjfEQU1EeOOV9pGh-aOww" lineColor="4210752"/>
     <styles xmi:type="notation:FontStyle" xmi:id="_GhjfEgU1EeOOV9pGh-aOww" fontColor="4210752" fontName="Segoe UI" fontHeight="10"/>
     <element xmi:type="ecore:EReference" href="CityEnergyInfrastructure.ecore#//NuclearElectricProduction/storage"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_GhjfEwU1EeOOV9pGh-aOww" points="[0, 0, 215, 60]$[-215, -60, 0, 0]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_GhjfEwU1EeOOV9pGh-aOww" points="[0, 0, 218, 60]$[-218, -60, 0, 0]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JpMlcAU1EeOOV9pGh-aOww" id="(0.49707602339181284,0.0)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GhktMAU1EeOOV9pGh-aOww" id="(0.9576719576719577,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GhktMAU1EeOOV9pGh-aOww" id="(0.9735449735449735,1.0)"/>
   </edges>
   <edges xmi:type="notation:Edge" xmi:id="_TeQz0AU6EeOOV9pGh-aOww" type="3003" source="_QL0LoAU6EeOOV9pGh-aOww" target="_qnSzoAU0EeOOV9pGh-aOww">
     <styles xmi:type="notation:ConnectorStyle" xmi:id="_TeQz0QU6EeOOV9pGh-aOww" routing="Rectilinear" lineColor="4210752"/>
