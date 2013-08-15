@@ -8,9 +8,7 @@ Bundle-Vendor: %providerName
 Bundle-Localization: plugin
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Export-Package: 
- org.tud.city.transport.citytransportinventory,
- org.tud.city.transport.citytransportinventory.impl,
- org.tud.city.transport.citytransportinventory.util
+
 Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.emf.ecore
 Bundle-ActivationPolicy: lazy

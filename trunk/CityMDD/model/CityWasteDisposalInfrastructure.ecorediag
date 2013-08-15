@@ -1,5 +1,441 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_GJQMQAUTEeOOV9pGh-aOww" type="EcoreTools" name="CityWasteDisposalInfrastructure" measurementUnit="Pixel">
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_GJQMQAUTEeOOV9pGh-aOww" type="EcoreTools" name="CityWasteDisposalInfrastructure" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_ToSxMAVIEeOOV9pGh-aOww" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_ToT_UAVIEeOOV9pGh-aOww" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_ToT_UQVIEeOOV9pGh-aOww" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_ToT_UgVIEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ToT_UwVIEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ToT_VAVIEeOOV9pGh-aOww"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_ToT_VQVIEeOOV9pGh-aOww" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_ToT_VgVIEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ToT_VwVIEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ToT_WAVIEeOOV9pGh-aOww"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_ToSxMQVIEeOOV9pGh-aOww" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="CityWasteDisposalInfrastructure.ecore#//Waste"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ToSxMgVIEeOOV9pGh-aOww" x="355" y="30"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_YYX1AAVIEeOOV9pGh-aOww" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_YYYcEAVIEeOOV9pGh-aOww" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_YYYcEQVIEeOOV9pGh-aOww" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_YYYcEgVIEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_YYYcEwVIEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_YYYcFAVIEeOOV9pGh-aOww"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_YYYcFQVIEeOOV9pGh-aOww" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_YYYcFgVIEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_YYYcFwVIEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_YYYcGAVIEeOOV9pGh-aOww"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_YYX1AQVIEeOOV9pGh-aOww" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="CityWasteDisposalInfrastructure.ecore#//Organic"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YYX1AgVIEeOOV9pGh-aOww" x="30" y="190"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_ZFCtwAVIEeOOV9pGh-aOww" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_ZFDU0AVIEeOOV9pGh-aOww" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_ZFDU0QVIEeOOV9pGh-aOww" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_ZFDU0gVIEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ZFDU0wVIEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ZFDU1AVIEeOOV9pGh-aOww"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_ZFDU1QVIEeOOV9pGh-aOww" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_ZFD74AVIEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ZFD74QVIEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ZFD74gVIEeOOV9pGh-aOww"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_ZFCtwQVIEeOOV9pGh-aOww" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="CityWasteDisposalInfrastructure.ecore#//Plastic"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZFCtwgVIEeOOV9pGh-aOww" x="195" y="305"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_iBBKQAVIEeOOV9pGh-aOww" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_iBBxUAVIEeOOV9pGh-aOww" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_iBBxUQVIEeOOV9pGh-aOww" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_iBBxUgVIEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_iBBxUwVIEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_iBBxVAVIEeOOV9pGh-aOww"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_iBBxVQVIEeOOV9pGh-aOww" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_iBBxVgVIEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_iBBxVwVIEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_iBBxWAVIEeOOV9pGh-aOww"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_iBBKQQVIEeOOV9pGh-aOww" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="CityWasteDisposalInfrastructure.ecore#//Metal"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iBBKQgVIEeOOV9pGh-aOww" x="355" y="305"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_j3sYAAVIEeOOV9pGh-aOww" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_j3sYAwVIEeOOV9pGh-aOww" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_j3sYBAVIEeOOV9pGh-aOww" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_j3sYBQVIEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_j3sYBgVIEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_j3sYBwVIEeOOV9pGh-aOww"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_j3s_EAVIEeOOV9pGh-aOww" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_j3s_EQVIEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_j3s_EgVIEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_j3s_EwVIEeOOV9pGh-aOww"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_j3sYAQVIEeOOV9pGh-aOww" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="CityWasteDisposalInfrastructure.ecore#//Recyclable"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_j3sYAgVIEeOOV9pGh-aOww" x="355" y="190"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_sbm50AVIEeOOV9pGh-aOww" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_sbng4AVIEeOOV9pGh-aOww" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_sbng4QVIEeOOV9pGh-aOww" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_sbng4gVIEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_sbng4wVIEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_sbng5AVIEeOOV9pGh-aOww"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_sbng5QVIEeOOV9pGh-aOww" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_sbng5gVIEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_sbng5wVIEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_sbng6AVIEeOOV9pGh-aOww"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_sbm50QVIEeOOV9pGh-aOww" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="CityWasteDisposalInfrastructure.ecore#//Glass"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sbm50gVIEeOOV9pGh-aOww" x="515" y="305"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_toT9gAVIEeOOV9pGh-aOww" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_toT9gwVIEeOOV9pGh-aOww" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_toUkkAVIEeOOV9pGh-aOww" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_toUkkQVIEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_toUkkgVIEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_toUkkwVIEeOOV9pGh-aOww"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_toUklAVIEeOOV9pGh-aOww" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_toUklQVIEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_toUklgVIEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_toUklwVIEeOOV9pGh-aOww"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_toT9gQVIEeOOV9pGh-aOww" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="CityWasteDisposalInfrastructure.ecore#//Miscellaneous"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_toT9ggVIEeOOV9pGh-aOww" x="190" y="190"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_2MQ7kAVIEeOOV9pGh-aOww" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_2MRioAVIEeOOV9pGh-aOww" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_2MRioQVIEeOOV9pGh-aOww" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_2MRiogVIEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_2MRiowVIEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_2MRipAVIEeOOV9pGh-aOww"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_2MRipQVIEeOOV9pGh-aOww" type="5002">
+      <children xmi:type="notation:Node" xmi:id="_HKG8wAVJEeOOV9pGh-aOww" type="2002">
+        <element xmi:type="ecore:EOperation" href="CityWasteDisposalInfrastructure.ecore#//WasteCollection/getWasteType"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HKG8wQVJEeOOV9pGh-aOww"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_2MRipgVIEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_2MRipwVIEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_2MRiqAVIEeOOV9pGh-aOww"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_2MQ7kQVIEeOOV9pGh-aOww" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="CityWasteDisposalInfrastructure.ecore#//WasteCollection"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2MQ7kgVIEeOOV9pGh-aOww" x="560" y="30"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_ApvnEAVJEeOOV9pGh-aOww" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_ApwOIAVJEeOOV9pGh-aOww" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_ApwOIQVJEeOOV9pGh-aOww" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_ApwOIgVJEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ApwOIwVJEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ApwOJAVJEeOOV9pGh-aOww"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_ApwOJQVJEeOOV9pGh-aOww" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_ApwOJgVJEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ApwOJwVJEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ApwOKAVJEeOOV9pGh-aOww"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_ApvnEQVJEeOOV9pGh-aOww" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="CityWasteDisposalInfrastructure.ecore#//PrivateBin"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ApvnEgVJEeOOV9pGh-aOww" x="515" y="190"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_FEAy8AVJEeOOV9pGh-aOww" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_FEBaAAVJEeOOV9pGh-aOww" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_FEBaAQVJEeOOV9pGh-aOww" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_FEBaAgVJEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_FEBaAwVJEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_FEBaBAVJEeOOV9pGh-aOww"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_FEBaBQVJEeOOV9pGh-aOww" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_FEBaBgVJEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_FEBaBwVJEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_FEBaCAVJEeOOV9pGh-aOww"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_FEAy8QVJEeOOV9pGh-aOww" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="CityWasteDisposalInfrastructure.ecore#//publicBin"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FEAy8gVJEeOOV9pGh-aOww" x="680" y="190"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_Pm7YEAVJEeOOV9pGh-aOww" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_Pm8mMAVJEeOOV9pGh-aOww" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_Pm8mMQVJEeOOV9pGh-aOww" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_dJkBMAVKEeOOV9pGh-aOww" type="2001">
+        <element xmi:type="ecore:EAttribute" href="CityWasteDisposalInfrastructure.ecore#//GarbageTruck/collectionRouteName"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_dJkBMQVKEeOOV9pGh-aOww"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_Pm8mMgVJEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Pm8mMwVJEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Pm8mNAVJEeOOV9pGh-aOww"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_Pm9NQAVJEeOOV9pGh-aOww" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_Pm9NQQVJEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Pm9NQgVJEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Pm9NQwVJEeOOV9pGh-aOww"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_Pm7YEQVJEeOOV9pGh-aOww" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="CityWasteDisposalInfrastructure.ecore#//GarbageTruck"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Pm7YEgVJEeOOV9pGh-aOww" x="1000" y="190"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_VBF6sAVJEeOOV9pGh-aOww" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_VBF6swVJEeOOV9pGh-aOww" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_VBGhwAVJEeOOV9pGh-aOww" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_qBYoMAVKEeOOV9pGh-aOww" type="2001">
+        <element xmi:type="ecore:EAttribute" href="CityWasteDisposalInfrastructure.ecore#//CollectionSchedule/lastCollection"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qBYoMQVKEeOOV9pGh-aOww"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ljNzwAVKEeOOV9pGh-aOww" type="2001">
+        <element xmi:type="ecore:EAttribute" href="CityWasteDisposalInfrastructure.ecore#//CollectionSchedule/nextCollection"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ljNzwQVKEeOOV9pGh-aOww"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_tTvw0AVKEeOOV9pGh-aOww" type="2001">
+        <element xmi:type="ecore:EAttribute" href="CityWasteDisposalInfrastructure.ecore#//CollectionSchedule/lastCollectionType"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_tTvw0QVKEeOOV9pGh-aOww"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_r3GzsAVKEeOOV9pGh-aOww" type="2001">
+        <element xmi:type="ecore:EAttribute" href="CityWasteDisposalInfrastructure.ecore#//CollectionSchedule/nextCollectionType"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_r3HawAVKEeOOV9pGh-aOww"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_VBGhwQVJEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_VBGhwgVJEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_VBGhwwVJEeOOV9pGh-aOww"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_VBGhxAVJEeOOV9pGh-aOww" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_VBGhxQVJEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_VBGhxgVJEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_VBGhxwVJEeOOV9pGh-aOww"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_VBF6sQVJEeOOV9pGh-aOww" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="CityWasteDisposalInfrastructure.ecore#//CollectionSchedule"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VBF6sgVJEeOOV9pGh-aOww" x="895" y="30"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_NoangAVKEeOOV9pGh-aOww" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_NobOkAVKEeOOV9pGh-aOww" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_NobOkQVKEeOOV9pGh-aOww" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_pXndAAVLEeOOV9pGh-aOww" type="2001">
+        <element xmi:type="ecore:EAttribute" href="CityWasteDisposalInfrastructure.ecore#//CollectionAndDisposal/name"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_pXndAQVLEeOOV9pGh-aOww"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_NobOkgVKEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_NobOkwVKEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_NobOlAVKEeOOV9pGh-aOww"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_NobOlQVKEeOOV9pGh-aOww" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_NobOlgVKEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_NobOlwVKEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_NobOmAVKEeOOV9pGh-aOww"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_NoangQVKEeOOV9pGh-aOww" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="CityWasteDisposalInfrastructure.ecore#//CollectionAndDisposal"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NoanggVKEeOOV9pGh-aOww" x="1270" y="190"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_65jfMAVKEeOOV9pGh-aOww" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_65kGQAVKEeOOV9pGh-aOww" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_65ktUAVKEeOOV9pGh-aOww" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_8LY6gAVKEeOOV9pGh-aOww" type="2001">
+        <element xmi:type="ecore:EAttribute" href="CityWasteDisposalInfrastructure.ecore#//DisposalCenter/wasteType"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_8LY6gQVKEeOOV9pGh-aOww"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_65ktUQVKEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_65ktUgVKEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_65ktUwVKEeOOV9pGh-aOww"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_65ktVAVKEeOOV9pGh-aOww" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_65ktVQVKEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_65ktVgVKEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_65ktVwVKEeOOV9pGh-aOww"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_65jfMQVKEeOOV9pGh-aOww" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="CityWasteDisposalInfrastructure.ecore#//DisposalCenter"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_65jfMgVKEeOOV9pGh-aOww" x="1375" y="30"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_ZQscwAVLEeOOV9pGh-aOww" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_ZQtD0AVLEeOOV9pGh-aOww" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_ZQtD0QVLEeOOV9pGh-aOww" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_cIZCoAVLEeOOV9pGh-aOww" type="2001">
+        <element xmi:type="ecore:EAttribute" href="CityWasteDisposalInfrastructure.ecore#//Location/longitude"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_cIZCoQVLEeOOV9pGh-aOww"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_e_dWYAVLEeOOV9pGh-aOww" type="2001">
+        <element xmi:type="ecore:EAttribute" href="CityWasteDisposalInfrastructure.ecore#//Location/Address"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_e_dWYQVLEeOOV9pGh-aOww"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_eIQooAVLEeOOV9pGh-aOww" type="2001">
+        <element xmi:type="ecore:EAttribute" href="CityWasteDisposalInfrastructure.ecore#//Location/latitude"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_eIQooQVLEeOOV9pGh-aOww"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_gBtdkAVLEeOOV9pGh-aOww" type="2001">
+        <element xmi:type="ecore:EAttribute" href="CityWasteDisposalInfrastructure.ecore#//Location/name"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_gBtdkQVLEeOOV9pGh-aOww"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_ZQtD0gVLEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ZQtD0wVLEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ZQtD1AVLEeOOV9pGh-aOww"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_ZQtq4AVLEeOOV9pGh-aOww" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_ZQtq4QVLEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ZQtq4gVLEeOOV9pGh-aOww"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ZQtq4wVLEeOOV9pGh-aOww"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_ZQscwQVLEeOOV9pGh-aOww" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="CityWasteDisposalInfrastructure.ecore#//Location"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZQscwgVLEeOOV9pGh-aOww" x="1145" y="30"/>
+  </children>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_GJQMQQUTEeOOV9pGh-aOww"/>
   <element xmi:type="ecore:EPackage" href="CityWasteDisposalInfrastructure.ecore#/"/>
+  <edges xmi:type="notation:Edge" xmi:id="_x9IBoAVIEeOOV9pGh-aOww" type="3003" source="_j3sYAAVIEeOOV9pGh-aOww" target="_ToSxMAVIEeOOV9pGh-aOww">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_x9IBoQVIEeOOV9pGh-aOww" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_x9IBogVIEeOOV9pGh-aOww" fontName="Segoe UI"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_x9IBowVIEeOOV9pGh-aOww" points="[0, 0, 0, 119]$[0, -119, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0IK84AVIEeOOV9pGh-aOww" id="(0.5,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0IK84QVIEeOOV9pGh-aOww" id="(0.5,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_yRJw4AVIEeOOV9pGh-aOww" type="3003" source="_YYX1AAVIEeOOV9pGh-aOww" target="_ToSxMAVIEeOOV9pGh-aOww">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_yRJw4QVIEeOOV9pGh-aOww" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_yRJw4gVIEeOOV9pGh-aOww" fontName="Segoe UI"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yRJw4wVIEeOOV9pGh-aOww" points="[0, 0, -291, 119]$[0, -30, -291, 89]$[291, -30, 0, 89]$[291, -119, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_yRK_AAVIEeOOV9pGh-aOww" id="(0.5,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_yRK_AQVIEeOOV9pGh-aOww" id="(0.16666666666666666,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_zCFekAVIEeOOV9pGh-aOww" type="3003" source="_ZFCtwAVIEeOOV9pGh-aOww" target="_j3sYAAVIEeOOV9pGh-aOww">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_zCFekQVIEeOOV9pGh-aOww" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_zCFekgVIEeOOV9pGh-aOww" fontName="Segoe UI"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zCFekwVIEeOOV9pGh-aOww" points="[0, 0, -136, 68]$[0, -30, -136, 38]$[136, -30, 0, 38]$[136, -68, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zCGssAVIEeOOV9pGh-aOww" id="(0.5,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0IKV0gVIEeOOV9pGh-aOww" id="(0.24509803921568626,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_zW0_gAVIEeOOV9pGh-aOww" type="3003" source="_iBBKQAVIEeOOV9pGh-aOww" target="_j3sYAAVIEeOOV9pGh-aOww">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_zW0_gQVIEeOOV9pGh-aOww" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_zW0_ggVIEeOOV9pGh-aOww" fontName="Segoe UI"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zW0_gwVIEeOOV9pGh-aOww" points="[0, 0, 0, 68]$[0, -68, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0IKV0AVIEeOOV9pGh-aOww" id="(0.5,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0IKV0QVIEeOOV9pGh-aOww" id="(0.5,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_ztWCEAVIEeOOV9pGh-aOww" type="3003" source="_sbm50AVIEeOOV9pGh-aOww" target="_j3sYAAVIEeOOV9pGh-aOww">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_ztWCEQVIEeOOV9pGh-aOww" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_ztWCEgVIEeOOV9pGh-aOww" fontName="Segoe UI"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ztWCEwVIEeOOV9pGh-aOww" points="[0, 0, 137, 68]$[0, -30, 137, 38]$[-137, -30, 0, 38]$[-137, -68, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0IJuwAVIEeOOV9pGh-aOww" id="(0.5,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0IJuwQVIEeOOV9pGh-aOww" id="(0.7450980392156863,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_OHJAUAVJEeOOV9pGh-aOww" type="3003" source="_ApvnEAVJEeOOV9pGh-aOww" target="_2MQ7kAVIEeOOV9pGh-aOww">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_OHJAUQVJEeOOV9pGh-aOww" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_OHJAUgVJEeOOV9pGh-aOww" fontName="Segoe UI"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_OHJAUwVJEeOOV9pGh-aOww" points="[0, 0, 0, 111]$[0, -111, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XscGoAVJEeOOV9pGh-aOww" id="(0.5,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OHLckAVJEeOOV9pGh-aOww" id="(0.034482758620689655,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_OeJLEAVJEeOOV9pGh-aOww" type="3003" source="_FEAy8AVJEeOOV9pGh-aOww" target="_2MQ7kAVIEeOOV9pGh-aOww">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_OeJLEQVJEeOOV9pGh-aOww" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_OeJLEgVJEeOOV9pGh-aOww" fontName="Segoe UI"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_OeJLEwVJEeOOV9pGh-aOww" points="[0, 0, 0, 111]$[0, -111, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XscGoQVJEeOOV9pGh-aOww" id="(0.5,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XscGogVJEeOOV9pGh-aOww" id="(0.9655172413793104,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_0zFssAVJEeOOV9pGh-aOww" type="3002" source="_Pm7YEAVJEeOOV9pGh-aOww" target="_VBF6sAVJEeOOV9pGh-aOww">
+    <children xmi:type="notation:Node" xmi:id="_0zFstAVJEeOOV9pGh-aOww" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_0zFstQVJEeOOV9pGh-aOww" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_0zFstgVJEeOOV9pGh-aOww" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_0zFstwVJEeOOV9pGh-aOww" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_0zFssQVJEeOOV9pGh-aOww" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_0zFssgVJEeOOV9pGh-aOww" fontColor="4210752" fontName="Segoe UI" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="CityWasteDisposalInfrastructure.ecore#//GarbageTruck/schedule"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0zFsswVJEeOOV9pGh-aOww" points="[0, 0, 112, 60]$[-112, -60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9T7FUAVJEeOOV9pGh-aOww" id="(0.4830917874396135,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0zG60AVJEeOOV9pGh-aOww" id="(0.5,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_5p8G4AVJEeOOV9pGh-aOww" type="3002" source="_ApvnEAVJEeOOV9pGh-aOww" target="_ToSxMAVIEeOOV9pGh-aOww">
+    <children xmi:type="notation:Node" xmi:id="_5p8G5AVJEeOOV9pGh-aOww" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_5p8G5QVJEeOOV9pGh-aOww" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_5p8t8AVJEeOOV9pGh-aOww" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_5p8t8QVJEeOOV9pGh-aOww" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_5p8G4QVJEeOOV9pGh-aOww" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_5p8G4gVJEeOOV9pGh-aOww" fontColor="4210752" fontName="Segoe UI" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="CityWasteDisposalInfrastructure.ecore#//PrivateBin/waste"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_5p8G4wVJEeOOV9pGh-aOww" points="[0, 0, 119, 119]$[-94, -61, 25, 58]$[-119, -119, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9T6eQAVJEeOOV9pGh-aOww" id="(0.24509803921568626,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5p-jIAVJEeOOV9pGh-aOww" id="(0.6666666666666666,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_8dYe4AVJEeOOV9pGh-aOww" type="3002" source="_FEAy8AVJEeOOV9pGh-aOww" target="_ToSxMAVIEeOOV9pGh-aOww">
+    <children xmi:type="notation:Node" xmi:id="_8dYe5AVJEeOOV9pGh-aOww" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_8dYe5QVJEeOOV9pGh-aOww" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_8dYe5gVJEeOOV9pGh-aOww" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_8dYe5wVJEeOOV9pGh-aOww" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_8dYe4QVJEeOOV9pGh-aOww" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_8dYe4gVJEeOOV9pGh-aOww" fontColor="4210752" fontName="Segoe UI" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="CityWasteDisposalInfrastructure.ecore#//publicBin/waste"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8dYe4wVJEeOOV9pGh-aOww" points="[0, 0, 264, 119]$[-214, -61, 50, 58]$[-264, -119, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9T8TcAVJEeOOV9pGh-aOww" id="(0.24509803921568626,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9T8TcQVJEeOOV9pGh-aOww" id="(0.8333333333333334,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_EMW8wAVKEeOOV9pGh-aOww" type="3003" source="_toT9gAVIEeOOV9pGh-aOww" target="_ToSxMAVIEeOOV9pGh-aOww">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_EMW8wQVKEeOOV9pGh-aOww" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_EMW8wgVKEeOOV9pGh-aOww" fontName="Segoe UI"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_EMW8wwVKEeOOV9pGh-aOww" points="[0, 0, -146, 119]$[0, -30, -146, 89]$[146, -30, 0, 89]$[146, -119, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_EdDEIAVKEeOOV9pGh-aOww" id="(0.49514563106796117,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_EdDrMAVKEeOOV9pGh-aOww" id="(0.3333333333333333,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_LEbLUAVLEeOOV9pGh-aOww" type="3002" source="_NoangAVKEeOOV9pGh-aOww" target="_65jfMAVKEeOOV9pGh-aOww">
+    <children xmi:type="notation:Node" xmi:id="_LEbLVAVLEeOOV9pGh-aOww" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_LEbLVQVLEeOOV9pGh-aOww" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_LEbLVgVLEeOOV9pGh-aOww" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_LEbLVwVLEeOOV9pGh-aOww" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_LEbLUQVLEeOOV9pGh-aOww" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_LEbLUgVLEeOOV9pGh-aOww" fontColor="4210752" fontName="Segoe UI" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="CityWasteDisposalInfrastructure.ecore#//CollectionAndDisposal/disposalCenter"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LEbLUwVLEeOOV9pGh-aOww" points="[0, 0, -77, 111]$[77, -111, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LEcZcAVLEeOOV9pGh-aOww" id="(0.6644736842105263,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LEcZcQVLEeOOV9pGh-aOww" id="(0.5,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_r0sjcAVLEeOOV9pGh-aOww" type="3002" source="_NoangAVKEeOOV9pGh-aOww" target="_ZQscwAVLEeOOV9pGh-aOww">
+    <children xmi:type="notation:Node" xmi:id="_r0tKgAVLEeOOV9pGh-aOww" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_r0tKgQVLEeOOV9pGh-aOww" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_r0tKggVLEeOOV9pGh-aOww" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_r0tKgwVLEeOOV9pGh-aOww" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_r0sjcQVLEeOOV9pGh-aOww" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_r0sjcgVLEeOOV9pGh-aOww" fontColor="4210752" fontName="Segoe UI" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="CityWasteDisposalInfrastructure.ecore#//CollectionAndDisposal/route"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_r0sjcwVLEeOOV9pGh-aOww" points="[0, 0, 61, 60]$[-61, -60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_r0u_sAVLEeOOV9pGh-aOww" id="(0.32894736842105265,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_r0u_sQVLEeOOV9pGh-aOww" id="(0.6627218934911243,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_1DUPIAVLEeOOV9pGh-aOww" type="3002" source="_Pm7YEAVJEeOOV9pGh-aOww" target="_ZQscwAVLEeOOV9pGh-aOww">
+    <children xmi:type="notation:Node" xmi:id="_1DU2MAVLEeOOV9pGh-aOww" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_1DU2MQVLEeOOV9pGh-aOww" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_1DU2MgVLEeOOV9pGh-aOww" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_1DVdQAVLEeOOV9pGh-aOww" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_1DUPIQVLEeOOV9pGh-aOww" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_1DUPIgVLEeOOV9pGh-aOww" fontColor="4210752" fontName="Segoe UI" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="CityWasteDisposalInfrastructure.ecore#//GarbageTruck/route"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1DUPIwVLEeOOV9pGh-aOww" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1DXScAVLEeOOV9pGh-aOww" id="(0.966183574879227,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1DXScQVLEeOOV9pGh-aOww" id="(0.33136094674556216,1.0)"/>
+  </edges>
 </notation:Diagram>
